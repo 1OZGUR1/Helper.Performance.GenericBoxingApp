@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Bokehlicia-Captiva-Plank.ico</ApplicationIcon>
+    <PackageId>Helper.Perfornance.GenericBoxing</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Özgür ATILGAN</Authors>
+    <Company>Özgür ATILGAN</Company>
+    <Product>Helper.Perfornance.GenericBoxing</Product>
+    <Description>Boxing &amp; UnBoxing Building Generic</Description>
+    <Copyright>Copyright 2024</Copyright>
+    <PackageIcon>Bokehlicia-Captiva-Plank.128.png</PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Helper, Performance, Boxing, UnBoxing</PackageTags>
+    <PackageReleaseNotes>Performance Helper</PackageReleaseNotes>
+    <Title>Helper.Perfornance.GenericBoxing</Title>
+    <PackAsTool>True</PackAsTool>
+    <ToolCommandName>Helper.Performance.GenericBoxing</ToolCommandName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Bokehlicia-Captiva-Plank.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\Bokehlicia-Captiva-Plank.128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
